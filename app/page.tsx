@@ -14,7 +14,6 @@ export default function Page({}: Props) {
   const [nouns, setNouns] = useState([]);
   const [verbs, setVerbs] = useState([]);
   const [elements, setElements] = useState([]);
-
   const [fetching, setFetching] = useState(false);
   const [audio, setAudio] = useState("");
   const [isError, setisError] = useState(false);
